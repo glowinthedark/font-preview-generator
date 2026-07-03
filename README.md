@@ -28,43 +28,6 @@ git clone https://github.com/glowinthedark/font-preview-generator.git
 cd font-preview-generator
 ```
 
-**README.md**
-
-```markdown
-# Font Preview Generator
-
-**Generate beautiful, self-contained HTML typography specimen sheets** for local `.ttf`, `.otf`, `.woff`, and `.woff2` fonts — **without installing them** on your system.
-
-Recursively scans a folder, groups fonts by true family name (via `fontTools`), deduplicates variants, embeds multiple source formats per family, and renders a clean, responsive preview page with pangram + multilingual test text at multiple sizes. Opens the result in your default browser instantly.
-
-
-
-*Screenshot: Clean specimen output with family grouping, multiple sizes, and embedded metadata.*
-
-## Features
-
-- Zero font installation required — works directly from font files.
-- Smart family-name extraction (prefers OpenType Preferred Family).
-- Aggregates all formats of the same family into one card.
-- Prioritizes WOFF2 > WOFF > TTF/OTF for web preview.
-- Responsive, elegant UI using golden-ratio proportions.
-- Customizable sample text.
-- Lightweight, pure Python (single script).
-
-## Prerequisites
-
-- **Python 3.8+**
-- `fonttools` (with brotli support for WOFF2)
-
-## Installation
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/glowinthedark/font-preview-generator.git
-cd font-preview-generator
-```
-
 ### 2. Install dependencies
 
 **Recommended (uv):**
