@@ -77,12 +77,9 @@ python font_prevew_generator.py --text "Lorem ipsum dolor sit amet"
 5. Renders responsive cards with 12pt/16pt/26pt specimens.
 6. Writes `preview.html` + auto-opens in browser.
 
-## Output Example
+## Limitations
+:warning: The generated `preview.html` _does not embed the fonts_ — the fonts are referenced via **relative paths from the current folder**. If you move the fonts or the .html file to another location the preview won't work.
 
-A single clean `preview.html` file with:
-- Header summary (total files & unique families).
-- Per-family cards with metadata.
-- Multiple test sizes + pangram + Latin/CJK/glyphs.
 
 ## License
 
