@@ -4,8 +4,7 @@
 
 Recursively scans a folder, groups fonts by true family name (uses python `fontTools`), deduplicates variants, embeds multiple source formats per family, and renders a preview page with pangram + multilingual test text at multiple sizes. Opens the result in your default browser.
 
-
-*Screenshot: Clean specimen output with family grouping, multiple sizes, and embedded metadata.*
+![Screenshot: family grouping, multiple sizes, embedded metadata*](font-preview.png)
 
 ## Features
 
