@@ -59,13 +59,13 @@ Scans the current directory and generates `preview.html`.
 ### Custom folder
 
 ```bash
-python font_prevew_generator.py /Library/Fonts
+python3 font_prevew_generator.py /Library/Fonts
 ```
 
 ### Custom preview text
 
 ```bash
-python font_prevew_generator.py --text "Lorem ipsum dolor sit amet"
+python3 font_prevew_generator.py --text "Lorem ipsum dolor sit amet"
 ```
 
 ## How It Works
