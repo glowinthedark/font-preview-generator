@@ -2,7 +2,7 @@
 
 **HTML font previews** for local `.ttf`, `.otf`, `.woff`, and `.woff2` fonts — **without installing them** on your system.
 
-Recursively scans a folder, groups fonts by true family name (uses python `fontTools`), deduplicates variants, embeds multiple source formats per family, and renders a preview page with pangram + multilingual test text at multiple sizes. Opens the result in your default browser.
+Recursively scans a folder, groups fonts by true family name (uses python [**`fontTools`**](https://github.com/fonttools/fonttools)), deduplicates variants, embeds multiple source formats per family, and renders a preview page with pangram + multilingual test text at multiple sizes. Opens the result in your default browser.
 
 ![Screenshot: family grouping, multiple sizes, embedded metadata*](font-preview.png)
 
