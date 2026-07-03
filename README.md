@@ -59,7 +59,7 @@ Scans the current directory and generates `preview.html`.
 ### Custom folder
 
 ```bash
-python font_prevew_generator.py /path/to/fonts
+python font_prevew_generator.py /Library/Fonts
 ```
 
 ### Custom preview text
