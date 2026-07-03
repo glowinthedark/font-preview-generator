@@ -34,6 +34,8 @@ cd font-preview-generator
 
 ```bash
 # with venv
+uv venv
+source .venv/bin/activate
 uv pip install fonttools brotli
 
 # no venv, system-wide
